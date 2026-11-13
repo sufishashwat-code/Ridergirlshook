@@ -1,0 +1,235 @@
+---
+name: Valkyrie Moto
+colors:
+  surface: '#131313'
+  surface-dim: '#131313'
+  surface-bright: '#393939'
+  surface-container-lowest: '#0e0e0e'
+  surface-container-low: '#1c1b1b'
+  surface-container: '#201f1f'
+  surface-container-high: '#2a2a2a'
+  surface-container-highest: '#353534'
+  on-surface: '#e5e2e1'
+  on-surface-variant: '#b9ccb5'
+  inverse-surface: '#e5e2e1'
+  inverse-on-surface: '#313030'
+  outline: '#849581'
+  outline-variant: '#3b4b3a'
+  surface-tint: '#00e55b'
+  primary: '#edffe8'
+  on-primary: '#003911'
+  primary-container: '#00ff66'
+  on-primary-container: '#007128'
+  inverse-primary: '#006e27'
+  secondary: '#c8c6c5'
+  on-secondary: '#303030'
+  secondary-container: '#474746'
+  on-secondary-container: '#b6b5b4'
+  tertiary: '#f0fcff'
+  on-tertiary: '#00363d'
+  tertiary-container: '#85edff'
+  on-tertiary-container: '#006c79'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#6bff83'
+  primary-fixed-dim: '#00e55b'
+  on-primary-fixed: '#002107'
+  on-primary-fixed-variant: '#00531b'
+  secondary-fixed: '#e4e2e1'
+  secondary-fixed-dim: '#c8c6c5'
+  on-secondary-fixed: '#1b1c1c'
+  on-secondary-fixed-variant: '#474746'
+  tertiary-fixed: '#9cf0ff'
+  tertiary-fixed-dim: '#00daf3'
+  on-tertiary-fixed: '#001f24'
+  on-tertiary-fixed-variant: '#004f58'
+  background: '#131313'
+  on-background: '#e5e2e1'
+  surface-variant: '#353534'
+typography:
+  display:
+    fontFamily: Space Grotesk
+    fontSize: 56px
+    fontWeight: '700'
+    lineHeight: 64px
+    letterSpacing: -0.03em
+  display-mobile:
+    fontFamily: Space Grotesk
+    fontSize: 38px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Space Grotesk
+    fontSize: 40px
+    fontWeight: '700'
+    lineHeight: 48px
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Space Grotesk
+    fontSize: 30px
+    fontWeight: '700'
+    lineHeight: 38px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Space Grotesk
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 36px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Space Grotesk
+    fontSize: 22px
+    fontWeight: '600'
+    lineHeight: 30px
+    letterSpacing: '0'
+  title-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 26px
+    letterSpacing: '0'
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+    letterSpacing: '0'
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: '0'
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0.01em
+  label-lg:
+    fontFamily: Space Grotesk
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 18px
+    letterSpacing: 0.05em
+  label-md:
+    fontFamily: Space Grotesk
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.08em
+  label-sm:
+    fontFamily: Space Grotesk
+    fontSize: 10px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.1em
+rounded:
+  sm: 0.5rem
+  DEFAULT: 1rem
+  md: 1.5rem
+  lg: 2rem
+  xl: 3rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 3rem
+  margin-mobile: 1.25rem
+  margin-tablet: 2rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+  space-2xl: 4rem
+---
+
+## Brand & Style
+
+This design system embodies high-octane empowerment, modern rebellion, and technical camaraderie. Crafted specifically for an adventurous women’s motorcycling collective, the visual direction merges high-performance street aesthetics with radical inclusivity and fierce confidence.
+
+The design movement combines **High-Contrast Minimalism** with **Cyber-Industrial Performance**. It draws inspiration from night rides, illuminated dash clusters, and technical gear:
+- **Atmosphere:** Deep asphalt tones, electric luminescence, and crisp, uncompromising clarity.
+- **Tone & Mood:** Unapologetic, kinetic, precision-engineered, and protective.
+- **Visual Tenets:** Pure contrast over clutter. Electric neon accents guide the eye to interactive focal points, while structural framing evokes motorcycle chassis and telemetry screens.
+
+## Colors
+
+The color palette is built around night visibility, high-contrast legibility, and technical motorsport aesthetics.
+
+- **Primary (`#00FF66` — High-Vis Volt):** The core interactive driver. Used for primary CTAs, active route states, critical badges, and selective illuminated accents. Commands immediate visual priority.
+- **Secondary (`#2A2A2A` — Forged Slate):** Structural surface color for mid-tier containers, input fills, and inactive interactive elements.
+- **Tertiary (`#00E5FF` — Cyan Pulse):** An auxiliary telemetry accent reserved for navigational tracking, ride stats, and status indicators.
+- **Neutral Base (`#121212` — Asphalt Black):** Deep, non-reflective ground surface. Minimizes eye fatigue in low-light environments.
+- **Tonal Neutrals:**
+  - Dark Surface / Elevated Base: `#181818`
+  - Subtle Border / Divider: `#262626`
+  - High-Contrast Text: `#FFFFFF`
+  - Secondary Text / Metadata: `#A3A3A3`
+  - Muted Text / Inactive: `#525252`
+
+## Typography
+
+Typography establishes an assertive, mechanical rhythm. 
+
+- **Display & Headlines (Space Grotesk):** Provides technological sharpness, structural geometry, and an avant-garde motorsport edge. Upper display levels adopt tight letter spacing to convey speed and density.
+- **Body & Longform (Plus Jakarta Sans):** Offers clean, contemporary geometry with high x-height and open counters, ensuring optimal legibility against dark slate surfaces under varying ambient lighting conditions.
+- **Labels & Overlines (Space Grotesk):** Rendered in uppercase with generous tracking (`0.05em` to `0.1em`) to mimic dash instrumentation, telemetry tags, and flight-check markers.
+
+## Layout & Spacing
+
+The layout follows an asymmetrical fluid grid system designed to feel dynamic yet strictly organized:
+
+- **Desktop (1024px+):** 12-column grid, `margin: 3rem`, `gutter: 1.5rem`. Modules break standard containment with deliberate horizontal spans (e.g., 7/5 splits for imagery vs. telemetry data).
+- **Tablet (768px – 1023px):** 8-column grid, `margin: 2rem`, `gutter: 1.5rem`. Side-by-side modules collapse into stacked pairing blocks.
+- **Mobile (< 768px):** 4-column grid, `margin: 1.25rem`, `gutter: 1rem`. Full-bleed full-width cards with internal edge-to-edge swipes for route galleries and rider profiles.
+- **Spacing Rhythm:** Adheres to a strict 4px/8px incremental logic. Content-dense sections (route data, telemetry) utilize `space-xs` and `space-sm`, while editorial narratives and hero viewports leverage `space-xl` and `space-2xl` for uninhibited breathing room.
+
+## Elevation & Depth
+
+Rather than relying on generic drop shadows, this design system creates depth through **tonal stratification, low-contrast ghost borders, and selective neon back-glows**.
+
+1. **Surface Hierarchy:**
+   - **Ground Layer (`#121212`):** Primary canvas, background viewports.
+   - **Mid Layer (`#181818` / `#1E1E1E`):** Static cards, passive feed containers, and section blocks. Framed with a 1px solid hairline border in `#2A2A2A`.
+   - **Raised Layer (`#222222`):** Interactive menus, modals, and active card hover states.
+2. **Luminescence & Glow:**
+   - Interactive focus and hover states deploy a razor-thin neon border (`1px solid #00FF66`) matched with a tight ambient glow: `box-shadow: 0 0 16px -2px rgba(0, 255, 102, 0.35)`.
+   - Critical warnings, active GPS route indicators, and live event badges use a pulsating `0 0 24px rgba(0, 255, 102, 0.45)`.
+3. **Ghost Borders:**
+   - Default cards never use drop shadows; structural separation is defined purely by crisp `#2A2A2A` boundaries.
+
+## Shapes
+
+The design system employs a tactical juxtaposition: **ultra-sharp structural geometry contrasted with ergonomic pill-shaped touch targets**.
+
+- **Cards & Architectural Shells:** Utilize sharp, architectural forms (`0` to `4px` maximum corner radius) to evoke precision machinery, frame welds, and fairing cuts.
+- **Interactive Controls (Buttons, Chips, Badges):** Fully pill-shaped (`roundedness: 3`, `9999px` / `rounded-full`). This mimics aerodynamic cockpit switches, grips, and technical gear elements, providing an inviting, tactile contrast against the crisp backdrop.
+- **Media Containers:** Clean 90-degree corners with optional technical corner notches (chamfered cuts) for highlighted telemetry panels.
+
+## Components
+
+### Buttons
+- **Primary:** Full pill container (`border-radius: 9999px`). Background in `#00FF66`, typography in `#121212` (`Space Grotesk`, bold, uppercase, tracked). Hover state shifts brightness and emits an electric aura (`box-shadow: 0 0 20px rgba(0, 255, 102, 0.4)`).
+- **Secondary:** Pill container with 1px border in `#333333`, surface `#1E1E1E`, typography `#FFFFFF`. Hover transitions border to `#00FF66` and text to `#00FF66`.
+- **Ghost / Utility:** Transparent fill, `#FFFFFF` text, subtle underline on hover with a leading `#00FF66` arrow icon.
+
+### Chips & Badges
+- **Status Badges (Live Ride, Lead Road Captain):** Pill-shaped, semi-translucent slate fill (`rgba(42, 42, 42, 0.8)`), 1px stroke in `#00FF66`. Includes a 6px circular pulsing indicator dot.
+- **Filter Chips:** High-density pill toggles. Inactive state: `#1E1E1E` background, `#A3A3A3` text. Active state: solid `#00FF66` background, `#121212` text.
+
+### Cards
+- **Structure:** Pitch-black or dark slate base (`#181818`), sharp corners (`0px` or `2px`), bounded by a subtle `1px solid #262626` outline.
+- **Interactive Ride Cards:** On hover, top border turns into a 2px `#00FF66` illuminated accent line; card elevates slightly with an internal border shift to `#333333`.
+
+### Input Fields & Controls
+- **Inputs:** Dark field fill (`#1E1E1E`), bottom hairline border (`2px solid #333333`), text in `#FFFFFF`. Focus transitions the bottom border instantly to `#00FF66` with a zero-delay snap. Labels sit uppercase above fields in `label-sm` Space Grotesk.
+- **Checkboxes & Radios:** Sharp square indicators for checkboxes, circular for radios. Inactive border `#333333`. Checked state fills `#00FF66` with `#121212` icons.
+
+### Specialized Community Components
+- **Ride Telemetry HUD:** Modular horizontal bar showing route difficulty, surface type, total distance, and pace. Rendered in monospaced/Space Grotesk metrics with neon accents.
+- **Rider Profile Crest:** Sharp hexagonal or circular avatar framed by a dynamic neon ring indicating community tier (e.g., Solo Adventurer, Iron Butt, Road Captain).
